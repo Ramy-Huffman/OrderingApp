@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ECD1078D-7217-434C-B28A-333C5B241F28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OrderingApp</RootNamespace>
+    <AssemblyName>OrderingApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spaguetti_Gkk_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza_zxV_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lettuce_tNO_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icecream_Tfu_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coke_m5f_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_CYr_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_york_style_RXX_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicago_style_1Pk_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sicilian_style_6i3_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spaghetti_style_IYW_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papparadelle_style_Tzz_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penne_style_caj_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raviolli_style_SDL_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green_salad_j4E_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caesar_salad_cEu_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waldorf_salad_77j_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sundae_5KM_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake_PaQ_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cookies_rOZ_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creme_brulee_7ra_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flan_Pw8_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baklava_sKB_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soda_iNP_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iced_tea_ECf_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juice_RzM_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milk_5E9_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beer_6vG_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wine_Gyy_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_FAs_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

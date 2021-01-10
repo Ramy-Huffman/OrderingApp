@@ -1,0 +1,10 @@
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\bin\Debug\OrderingApp.exe.config
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\bin\Debug\OrderingApp.exe
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\bin\Debug\OrderingApp.pdb
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\obj\Debug\OrderingApp.Form1.resources
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\obj\Debug\OrderingApp.Properties.Resources.resources
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\obj\Debug\OrderingApp.csproj.GenerateResource.cache
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\obj\Debug\OrderingApp.csproj.CoreCompileInputs.cache
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\obj\Debug\OrderingApp.exe
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\obj\Debug\OrderingApp.pdb
+C:\Users\rabde\OneDrive\Desktop\Fall 2020\SWENG421\Labs\FinalProject\OrderingApp\OrderingApp\obj\Debug\OrderingApp.csprojAssemblyReference.cache
